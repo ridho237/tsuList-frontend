@@ -16,6 +16,8 @@ import {
 	DropdownItem,
 	DropdownMenu,
 	Spinner,
+	NavbarMenuItem,
+	NavbarMenu,
 } from '@heroui/react';
 
 export default function App() {
@@ -56,10 +58,7 @@ export default function App() {
 				</NavbarBrand>
 			</NavbarContent>
 
-			<NavbarContent
-				className='hidden sm:flex gap-4'
-				justify='center'
-			>
+			<NavbarContent className='hidden sm:flex gap-4'>
 				<NavbarBrand>
 					<Link
 						href='/'
@@ -164,6 +163,35 @@ export default function App() {
 					</>
 				)}
 			</NavbarContent>
+
+			<NavbarMenu className='bg-firsto'>
+				<NavbarMenuItem className='flex flex-col justify-around items-center h-full w-full'>
+					<NavbarItem isActive={pathname === '/'}>
+						<Link
+							href='/'
+							className='text-fourtho'
+						>
+							Home
+						</Link>
+					</NavbarItem>
+					<NavbarItem isActive={pathname === '/#anime'}>
+						<Link
+							href='/#anime'
+							className='text-fourtho'
+						>
+							Anime
+						</Link>
+					</NavbarItem>
+					<NavbarItem isActive={pathname === '/#drama'}>
+						<Link
+							href='/#drama'
+							className='text-fourtho'
+						>
+							Drama
+						</Link>
+					</NavbarItem>
+				</NavbarMenuItem>
+			</NavbarMenu>
 		</Navbar>
 	);
 }

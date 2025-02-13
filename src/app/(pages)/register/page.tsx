@@ -48,7 +48,7 @@ export default function Register() {
 	};
 
 	return (
-		<div className='flex justify-center items-center h-screen'>
+		<div className='flex justify-center items-center h-screen p-2'>
 			<form
 				onSubmit={handleSubmit}
 				className='max-w-md mx-auto mt-10 p-6 border-3 border-fourtho rounded-xl bg-firsto'
