@@ -93,7 +93,7 @@ export default function ListPages() {
 					aria-label='Options'
 					classNames={{
 						tabList:
-							'gap-1 sm:gap-6 w-full relative rounded-none p-0 border-divider bg-fourtho',
+							'gap-1 sm:gap-6 w-full relative rounded-lg mx-2 border-divider bg-fourtho',
 						cursor: 'w-full bg-firsto',
 						tab: 'w-full h-12',
 						tabContent:
