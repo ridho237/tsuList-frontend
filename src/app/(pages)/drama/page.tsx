@@ -83,7 +83,9 @@ export default function ListPages() {
 	return (
 		<div className='flex flex-col items-center container w-full mx-auto'>
 			<div className='w-full bg-firsto flex justify-center items-center h-[500px]'>
-				<h1 className='text-fourtho font-bold text-5xl'>Your Drama List</h1>
+				<h1 className='text-fourtho font-bold text-2xl sm:text-5xl'>
+					Your Drama List
+				</h1>
 			</div>
 
 			<div className='flex w-full flex-col h-full'>
@@ -97,7 +99,7 @@ export default function ListPages() {
 						tabContent:
 							'text-[10px] sm:text-lg group-data-[selected=true]:text-firsto text-firsto font-bold',
 					}}
-					variant='underlined'
+					variant='bordered'
 				>
 					<Tab
 						key='all'

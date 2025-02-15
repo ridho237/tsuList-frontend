@@ -105,7 +105,7 @@ export default function ProfilePage() {
 	};
 
 	return (
-		<div className='flex justify-center items-center h-screen bg-gray-100'>
+		<div className='flex justify-center items-center h-screen bg-gray-100 p-2'>
 			<form className='max-w-md w-full p-6 border-3 border-fourtho rounded-xl bg-white shadow-xl'>
 				<h1 className='text-3xl mb-1 font-bold text-center text-fourtho'>
 					Edit Profile

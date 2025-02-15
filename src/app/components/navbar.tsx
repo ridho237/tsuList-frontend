@@ -41,7 +41,7 @@ export default function App() {
 	return (
 		<Navbar
 			maxWidth='full'
-			className='flex justify-center w-full mx-auto bg-firsto border-b-3 border-fourtho'
+			className='flex justify-start w-full mx-auto bg-firsto border-b-3 border-fourtho'
 		>
 			<NavbarContent
 				className='sm:hidden'
@@ -58,15 +58,18 @@ export default function App() {
 				</NavbarBrand>
 			</NavbarContent>
 
-			<NavbarContent className='hidden sm:flex gap-4'>
-				<NavbarBrand>
+			<NavbarContent
+				className='hidden sm:flex'
+				justify='start'
+			>
+				<NavbarItem>
 					<Link
 						href='/'
 						className='text-fourtho font-semibold'
 					>
 						TsuList
 					</Link>
-				</NavbarBrand>
+				</NavbarItem>
 				<NavbarItem isActive={pathname === '/'}>
 					<Link
 						href='/'
@@ -165,7 +168,7 @@ export default function App() {
 			</NavbarContent>
 
 			<NavbarMenu className='bg-firsto'>
-				<NavbarMenuItem className='flex flex-col justify-around items-center h-full w-full'>
+				<NavbarMenuItem className='flex flex-col justify-center gap-4 items-center h-full w-full'>
 					<NavbarItem isActive={pathname === '/'}>
 						<Link
 							href='/'
