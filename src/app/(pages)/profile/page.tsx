@@ -105,12 +105,12 @@ export default function ProfilePage() {
 	};
 
 	return (
-		<div className='flex justify-center items-center h-screen bg-gray-100 p-2'>
-			<form className='max-w-md w-full p-6 border-3 border-fourtho rounded-xl bg-white shadow-xl'>
+		<div className='flex justify-center items-center h-screen bg-firsto p-2'>
+			<form className='max-w-md w-full p-6 border-3 border-fourtho rounded-xl bg-firsto shadow-xl'>
 				<h1 className='text-3xl mb-1 font-bold text-center text-fourtho'>
 					Edit Profile
 				</h1>
-				<h3 className='text-center text-md mb-5 text-gray-600'>
+				<h3 className='text-center text-md mb-5 text-thirdo'>
 					Update your profile information
 				</h3>
 
@@ -121,11 +121,11 @@ export default function ProfilePage() {
 						alt='Profile'
 						width={96}
 						height={96}
-						className='w-24 h-24 rounded-full mb-3 border-2 border-gray-300'
+						className='w-24 h-24 rounded-full mb-3 border-2 border-thirdo'
 					/>
-					<label className='flex items-center gap-2 p-2 border-2 border-dashed border-fourtho rounded-xl cursor-pointer hover:bg-gray-200 transition-all mb-4'>
+					<label className='flex items-center gap-2 p-2 border-2 border-dashed border-fourtho rounded-xl cursor-pointer hover:bg-secondo transition-all mb-4'>
 						<ImageIcon className='w-5 h-5 text-fourtho' />
-						<span className='text-gray-500'>Upload New Profile Picture</span>
+						<span className='text-thirdo'>Upload New Profile Picture</span>
 						<input
 							type='file'
 							accept='image/*'

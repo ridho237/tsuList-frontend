@@ -97,7 +97,7 @@ export default function ListPages() {
 						cursor: 'w-full bg-firsto',
 						tab: 'w-full h-12',
 						tabContent:
-							'text-[10px] sm:text-lg group-data-[selected=true]:text-firsto text-firsto font-bold',
+							'text-[10px] sm:text-lg group-data-[selected=true]:text-fourtho text-firsto font-bold',
 					}}
 					variant='bordered'
 				>
